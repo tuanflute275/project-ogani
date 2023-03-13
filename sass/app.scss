@@ -1,0 +1,26 @@
+// font family
+@import './variable';
+@import './mixin';
+*,
+*::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    @import './header';
+}
+.content {
+    @import './content';
+}
+.footer {
+    @import './footer';
+}
+.hide{
+    display: none;
+}
